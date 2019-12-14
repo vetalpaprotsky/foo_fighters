@@ -36,6 +36,7 @@
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
+    margin-bottom: 30px;
 }
 
 .main-header-container {
@@ -65,8 +66,7 @@
     color: #333;
     text-align: center;
     font-size: 40px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: lighter;
 }
 
@@ -82,6 +82,7 @@
     background-color: #56CCF2;
     color: white;
     padding: 10px 0;
+    margin-top: 30px;
 }
 
 .main-footer-container {
@@ -141,37 +142,32 @@
     background-color: #2D9CDB;
 }
 
-.tour-row {
-    border-bottom: 1px solid black;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-    border: none;
-}
-
-.tour-item {
-    display: inline-block;
-    padding-right: 0.5em;
+.tours-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
 }
 
 .tour-date {
     color: #555;
-    width: 11%;
     font-weight: bold;
 }
 
-.tour-city {
-    width: 24%;
+.tours-table th {
+    font-weight: bold;
+    color: #555;
 }
 
-.tour-arena {
-    width: 42%;
+.tours-table th, .tours-table td {
+    padding: 20px;
 }
 
-.tour-btn {
-    max-width: 19%;
+.tour-row {
+    border-bottom: 1px solid black;
+}
+
+.tour-row:last-child {
+    border: none;
 }
 
 .shop-item {
