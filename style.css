@@ -85,14 +85,8 @@
     margin-top: 30px;
 }
 
-.main-footer-container {
-    display: flex;
-    align-items: center;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
+.footer-nav {
+    text-align: center;
 }
 
 .footer-nav li {
