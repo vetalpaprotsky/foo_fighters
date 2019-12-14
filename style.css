@@ -30,7 +30,7 @@ p {
     padding: 0 5%;
 }
 
-.nav a:hover, .btn-header:hover, .nav a.active {
+.nav a:hover, .btn-play:hover, .nav a.active {
     background-color: rgba(255, 255, 255, 0.3)
 }
 
@@ -113,23 +113,16 @@ p {
     cursor: pointer;
 }
 
-.btn-header {
-    color: white;
-    margin: auto;
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, 0.1);
-    font-size: 25px;
-    text-decoration: none;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
 .btn-play {
+    margin: 0px auto auto auto;
     color: #2D9CDB;
+    border: 2px solid #2D9CDB;
     font-size: 70px;
     border-radius: 50%;
     width: 90px;
     padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
 }
 
 .btn-primary {
