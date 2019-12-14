@@ -35,17 +35,11 @@ p {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: url("images/Header Background.jpg");
-    background-blend-mode: multiply;
+    background-image: url("images/header_background.jpg");
     background-position: center;
     background-size: cover;
     margin-bottom: 30px;
-}
-
-.main-header-container {
-    min-height: 500px;
-    display: grid;
+    min-height: 350px;
 }
 
 .band-name {
@@ -55,11 +49,6 @@ p {
     font-weight: normal;
 }
 
-.band-name-large {
-    font-size: 80px;
-    margin: auto;
-}
-
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -67,7 +56,7 @@ p {
 }
 
 .section-header {
-    color: #333;
+    color: #303030;
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
@@ -82,7 +71,7 @@ p {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: #303030;
     color: white;
     padding: 10px 0;
     margin-top: 30px;
@@ -93,7 +82,7 @@ p {
 }
 
 .footer-nav {
-    text-align: end;
+    text-align: right;
     flex-grow: 1;
 }
 
@@ -111,18 +100,6 @@ p {
     vertical-align: middle;
     padding: 15px;
     cursor: pointer;
-}
-
-.btn-play {
-    margin: 0px auto auto auto;
-    color: #2D9CDB;
-    border: 2px solid #2D9CDB;
-    font-size: 70px;
-    border-radius: 50%;
-    width: 90px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    text-decoration: none;
 }
 
 .btn-primary {
@@ -143,14 +120,12 @@ p {
     border-collapse: collapse;
 }
 
-.tour-date {
+.tour-date, .tours-table th {
     color: #555;
-    font-weight: bold;
 }
 
 .tours-table th {
-    font-weight: bold;
-    color: #555;
+    font-size: 20px;
 }
 
 .tours-table th, .tours-table td {
@@ -176,7 +151,7 @@ p {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
-    color: #333;
+    color: #555;
     margin-bottom: 15px;
 }
 
@@ -192,7 +167,7 @@ p {
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+    color: #303030;
 }
 
 .shop-items {
